@@ -101,3 +101,17 @@ h2 {
   text-align: center;
   font-family: var(--FF);
 }
+
+
+/* desktop */
+@media screen and (min-width: 992px){
+
+    body {
+      display: grid;
+      place-content: center;
+    }
+
+    .card {
+      margin: 14.41rem 35rem;
+  }
+}
