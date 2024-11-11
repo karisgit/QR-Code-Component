@@ -104,14 +104,9 @@ h2 {
 
 
 /* desktop */
-@media screen and (min-width: 992px){
-
-    body {
-      display: grid;
-      place-content: center;
-    }
+@media screen and (min-width: 992px) {
 
     .card {
-      margin: 14.41rem 35rem;
+      margin: 14.41rem auto;
   }
 }
