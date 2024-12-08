@@ -26,6 +26,9 @@ img {
   --FF: "Outfit", serif;
   --TEXT-PRESET-1: 700 1.38rem/1.66rem var(--FF);
   --TEXT-PRESET-2: 400 0.94rem/1.32rem var(--FF) 0.0125rem;
+
+  /* shadow */
+  --SHADOW: 0px 25px 25px 0 hsla(0, 0%, 0%, 0.0477); 
 }
 
 /* || UTILITY CLASSES */
@@ -76,6 +79,7 @@ h2 {
   background-color: #fff;
   display: flex;
   flex-flow: column;
+  box-shadow: var(--SHADOW);
   /* align-items: center; */
 }
 
